@@ -1,11 +1,11 @@
 # musicle
-# WEB103 Project 1 - *Name of App Here*
+# WEB103 Project 1 - musicle
 
-Submitted by: **Your name here**
+Submitted by: Justin Tamay
 
-About this web app: **App description here**
+About this web app: This app lets people know about the local music events that are happening near them so that they can attend or just learn about them.
 
-Time spent: **X** hours
+Time spent: 7 hours
 
 ## Required Features
 
@@ -49,7 +49,7 @@ It was alot different than using React and node and express were frustrating alo
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2025] [Justin Tamay]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
