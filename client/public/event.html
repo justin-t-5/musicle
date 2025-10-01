@@ -7,7 +7,7 @@
 
   <!-- Pico CSS -->
   <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
-  <!-- Custom styles -->
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="/src/style.css">
 
   <!-- JS -->
@@ -15,23 +15,20 @@
   <script type="module" src="/scripts/events.js" defer></script>
 </head>
 <body>
-  <header>
-    <a href="/events"><h1>Musicle</h1></a>
-  </header>
+  <header></header>
 
-  <main id="event-content" class="container">
-    <section>
-      <img id="image" src="" alt="Event Image" style="width:100%; max-height:400px; object-fit:cover; border-radius:10px;">
+<main id="event-content">
+  <section class="event-card">
+    <img id="image" src="" alt="Event Image">
+    <h2 id="eventName"></h2>
+    <p id="artists"><strong>Artists:</strong> </p>
+    <p id="dateTime"><strong>Date & Time:</strong> </p>
+    <p id="venue"><strong>Venue:</strong> </p>
+    <p id="genre"><strong>Genre:</strong> </p>
+    <p id="ticketPrice"><strong>Ticket Price:</strong> </p>
+  </section>
+</main>
 
-      <h2 id="eventName"></h2>
- <p id="artists"><strong>Artists:</strong> </p>
-<p id="dateTime"><strong>Date & Time:</strong> </p>
-<p id="venue"><strong>Venue:</strong> </p>
-<p id="genre"><strong>Genre:</strong> </p>
-<p id="ticketPrice"><strong>Ticket Price:</strong> </p>
-
-    </section>
-  </main>
 
   <footer>
     <p>&copy; 2025 Musicle</p>

@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>musicle</title>
-    <link rel="stylesheet" href="/src/style.css">
-    <script type="module" src="/scripts/header.js" defer></script>
-    <script type="module" src="/scripts/events.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musicle - Event</title>
+
+  <!-- Pico CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/src/style.css">
+
+  <!-- JS -->
+  <script type="module" src="/scripts/header.js" defer></script>
+  <script type="module" src="/scripts/events.js" defer></script>
 </head>
 <body>
-    <header></header>
+  <header> </header>
 
-    <main id="event-content" class="event-info">
-        <div class="image-container">
-            <img id="image" src="" alt="Event Image">
-        </div>
+<main id="event-content">
+  <section class="event-card">
+    <img id="image" src="" alt="Event Image">
+    <h2 id="eventName"></h2>
+    <p id="artists"><strong>Artists:</strong> </p>
+    <p id="dateTime"><strong>Date & Time:</strong> </p>
+    <p id="venue"><strong>Venue:</strong> </p>
+    <p id="genre"><strong>Genre:</strong> </p>
+    <p id="ticketPrice"><strong>Ticket Price:</strong> </p>
+  </section>
+</main>
 
-        <div class="event-details">
-            <h2 id="eventName"></h2>
-            <p id="artists"></p>
-            <p id="dateTime"></p>
-            <p id="venue"></p>
-            <p id="genre"></p>
-            <p id="ticketPrice"></p>     
-        </div>
-    </main>
+
+  <footer>
+    <p>&copy; 2025 Musicle</p>
+  </footer>
 </body>
 </html>
